@@ -7,6 +7,7 @@ node "default" {
     include 'ssh'
     include 'volunteerssh'
     include 'irc'
+    include 'unattendedupgrades'
     # Ubuntu or Kali as base? Use homebasetoolsubuntu for ubuntu or homebasetoolskali for Kali
     include 'homebasetoolsubuntu'
     include 'etherpad'
